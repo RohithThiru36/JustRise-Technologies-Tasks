@@ -1,0 +1,28 @@
+p:nth-child(even) {
+    background-color: aquamarine;
+    padding: 0.8rem;
+    color: brown;
+    transform: translateY(-1rem);
+}
+
+p:nth-child(odd) {
+    background-color: palevioletred;
+    padding: 0.8rem;
+    color: purple;
+}
+
+p:nth-child(1),
+p:nth-child(7),
+p:nth-child(10) {
+    background-color: cornsilk;
+    padding: 0.8rem;
+}
+
+p {
+    font-style: italic;
+}
+
+h1 {
+    color: blue;
+    font-style: obliue;
+}

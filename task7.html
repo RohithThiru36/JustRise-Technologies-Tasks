@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, magenta, purple);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .cont {
+            display: flex;
+            margin: 10rem auto;
+            width: 50%;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        #log {
+            padding-left:60px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-evenly;
+            background-color: aliceblue;
+            width: 100%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius:10px ;
+        }
+
+        .content {
+            margin-top: 20px;
+            margin-left: 10px;
+            width: 42%;
+            display: grid;
+            background-color: white;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        input[type="email"],
+        input[type="submit"] {
+            width: 70%;
+            height: 30px;
+            font-size: 20px;
+        }
+        #sub{
+            width:150px;
+            height:40px;
+            border-radius: 20px;
+            margin:20px;
+        }
+        label{
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="content">
+            <h2>Welcome Back Champion!</h2>
+            <img src="https://t4.ftcdn.net/jpg/01/26/18/79/360_F_126187913_Jbtv4rUBcRzlYfCjwX4SnF5Spdk5K4bT.jpg"
+                alt="welcome pic" width="177px" height="300px">
+        </div>
+        <form id="log">
+            <h1 style="font-style:italic;">Log In</h1>
+            <label for="name">UserName:</label>
+            <input type="text" placeholder="Enter ur User Name" id="name">
+            <label for="pas">Password:</label>
+            <input type="password" id="pas">
+            <input type="submit"id="sub" value="Submit">
+            <p>Don`t Have An Account <a href="task6.html">Sign Up</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

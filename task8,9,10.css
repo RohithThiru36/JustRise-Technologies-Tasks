@@ -1,0 +1,42 @@
+li{
+    font-size: x-large;
+    margin: 1.5rem;
+}
+.games{
+    list-style-image: url("./assets/arrow.png");
+}
+.spl{
+    padding:2px;
+    margin-top:0px;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    border-bottom:2px solid gray;
+    padding:1rem;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(9, 132, 240);
+    padding:5px;
+}
+.flexbox>div{
+    background-color: aliceblue;
+    margin: 5px;
+    height: 80px;
+    line-height: 80px;
+    width:100px;
+    text-align: center;
+    font-size:10px;
+    flex:auto;
+}
+img{
+    float:left;
+    margin:7px 10px 10px 15px;
+    border:10px solid lightblue; 
+    margin:2px;
+}
